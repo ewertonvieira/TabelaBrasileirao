@@ -245,7 +245,8 @@ const clubes = [
 const addLine = (nome, pos, pontos, jogos, vitorias, empates, derrotas, golsMarcados, golSofridos, Saldo) =>{
     const tableSerieA =  document.querySelector("table"); // Seleciona a tabela
     const novaLinha = tableSerieA.insertRow(); // Insere uma nova Linha
-
+    // add uma classe a linha
+    novaLinha.classList.add('linha')
     // Cada linha add uma celula nova a linha(novaLinha);
     const cellNome = novaLinha.insertCell(0);
     const cellPos = novaLinha.insertCell(1);

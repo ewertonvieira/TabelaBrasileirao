@@ -12,11 +12,13 @@ thead > tr > th {
 #table {
     background: linear-gradient(60deg, #4CAF50, #FFEB3B);
     margin: auto;
-    margin-top: 20px;
+    margin-top: 10px 20px;
     font-family: monospace;
     font-size: 1.2rem;
     color: #013f7e;
     border-radius: 4px;
+    max-width: 800px;
+    width: 100%;
 }
 
 td {
